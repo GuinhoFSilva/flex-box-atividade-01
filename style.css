@@ -19,10 +19,9 @@ h1 {
     margin: auto;
     background-color: antiquewhite;
     border: solid 2px #212427;
-
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end; 
+    justify-content:space-between;
+    align-items: flex-start; 
     flex-direction: column;
 }
 
@@ -31,18 +30,24 @@ h1 {
     height: 80px;
     border-radius: 50px;
     text-align: center;
+    margin-left: 0;
 }
 
 .cor1 {
     background-color: #ED145B;
+    order: 1;
 }
 
 .cor2 {
     background-color: #63B1BC;
+    order: 3;
+    margin-left: 160px;
 }
 
 .cor3 {
     background-color: #EFB661;
+    order: 2;
+    margin-left: 80px;
 }
 
 .instrucoes {
